@@ -1,15 +1,88 @@
 @import url("reset.css");
-@import url("fonts.css");
 @import url("base.css");
 
-.title {
-    font-family: 'Sigmar One', sans-serif;
-    font-size: 24px;
+/*  Підключення шрифта Sigmar One */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+/* Підключення шрифта Roboto  */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
-/* Підключення шрифта через Link:css у HTML */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+.title {
+    font-family: "Bad Script", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ff0000;
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 0, 0);
+  }
+
+  .text__box-2 .title {
+    color: green;
+    text-decoration-line: line-through;
+    text-decoration-color: hsl(120, 100%, 25%);
+  }
+
+  /* Через @font-face */
+.text__box-1 p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.text__box-1 p:first-of-type {
+    color: blueviolet;
+    font-weight: 700;
+}
+
+
+/* через Link:css у HTML */
 .text__box-2 p {
     font-family: "Montserrat Alternates", sans-serif;
+    text-align: right;
     font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1.3px;
 }
 
+.text__box-2 p:first-of-type {
+    text-align: center;
+    text-shadow: 6px 6px 4px #000;
+    text-transform: capitalize;
+  }
+
+
+  /*! Не використовується у проєкті
+  white-space: nowrap;
+  word-spacing: 20px; */
