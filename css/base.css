@@ -1,0 +1,20 @@
+
+.container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 70px auto 0;
+}
+
+.text__box {
+    padding: 0 165px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
