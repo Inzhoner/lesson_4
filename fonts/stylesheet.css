@@ -1,15 +1,14 @@
-/*! Roboto */
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
-    font-weight: 400;
+    src: url('Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+    src: url('Roboto-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -17,7 +16,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Bold.woff2') format('woff2');
+    src: url('Roboto-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -25,11 +24,9 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Thin.woff2') format('woff2');
+    src: url('Roboto-Thin.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
 
-/* !  Sigmar One */
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');

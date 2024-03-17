@@ -1,3 +1,15 @@
 @import url("reset.css");
 @import url("fonts.css");
 @import url("base.css");
+
+.title {
+    font-family: 'Sigmar One', sans-serif;
+    font-size: 24px;
+}
+
+/* Підключення шрифта через Link:css у HTML */
+.text__box-2 p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 14px;
+}
+
