@@ -109,16 +109,12 @@
     font-size: 16px;
     line-height: 30px;
     color: #2b2929;
-    text-align: center;
 }
 
 .main__title {  
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 40px;
-    /*! agreed with Ostap */
-    /*! text-align: left; */
-    /*! bad option */
 }
 
 .description__text {
@@ -139,8 +135,23 @@
     text-align: left;
     line-height: 28px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
-.task-5__list-item {
-    text-align: left;
+.task-5__list {
+    margin-bottom: 40px;
 }
+
+.task-5__list li {
+    margin-bottom: 20px;
+    padding-left: 48px;
+}
+/* 
+.task-5__list li::before {
+    content: "";
+    background-image: url(../img/list-decor.svg);
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+} */
+
