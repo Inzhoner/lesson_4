@@ -25,7 +25,7 @@
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Bold.woff2') format('woff2');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -39,9 +39,9 @@
 }
 
 @font-face {
-    font-family: 'Proxima Nova Rg';
+    font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNova-Regular.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -105,7 +105,7 @@
 
   /* !звертаємось за * тільки в межах цього завдання тому що є завдання №4 на цієї ж сторінці */
 .homework__task-5 * {
-    font-family: 'Proxima Nova Rg',sans-serif;
+    font-family: 'Proxima Nova',sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #2b2929;
